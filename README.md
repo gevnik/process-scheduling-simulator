@@ -149,6 +149,23 @@ After you’re done, you can choose to clear `process.txt` for the next run.
 
 ---
 
+## 📂 Sample Process Files
+
+The `sample_processes/` folder contains example input files to showcase how each scheduling algorithm works best.
+
+| File | Description |
+|------|-------------|
+| `simple_fcfs.txt` | A straightforward scenario that shows FCFS running processes in arrival order. |
+| `sjf_benefit.txt` | Demonstrates how Shortest Job First (SJF) minimizes average waiting time with varied burst times. |
+| `priority_example.txt` | Processes with different priorities — lower priority number means higher priority. |
+| `round_robin_example.txt` | Longer processes that show how Round Robin splits CPU time fairly with a quantum. |
+| `mixed_case.txt` | A realistic mix of processes to compare all algorithms side by side. |
+
+**How to use:**  
+Run the simulator in file input mode, then enter the path, e.g.: sample_processes/sjf_benefit.txt This will pre-load those processes for simulation!
+
+---
+
 ## 💡 Tips
 
 - Always validate your input: unique IDs, non-negative arrival time, positive burst time.
