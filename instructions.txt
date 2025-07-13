@@ -1,0 +1,68 @@
+==============================
+ Process Scheduling Simulator
+==============================
+
+Welcome to the Process Scheduling Algorithm Simulator!
+
+Follow these instructions to run your simulations:
+
+1. Choose your input mode:
+   1. Manual Input: Enter process details interactively.
+   2. File Input: Load process details from an existing text file.
+
+----------------------------------
+ Process Format (for file input):
+----------------------------------
+Each line in the file should contain:
+
+   <ProcessID> <ArrivalTime> <BurstTime> [Priority]
+
+Examples:
+   1 0 5
+   2 2 3 1
+
+Priority is optional and only used for Priority Scheduling.
+
+----------------------------------
+ Manual Input:
+----------------------------------
+You will be prompted to enter:
+   - Process ID (unique integer)
+   - Arrival Time (integer >= 0)
+   - Burst Time (integer > 0)
+   - Priority (optional, integer)
+
+To finish manual input, follow the prompt to add another process or stop.
+
+----------------------------------
+ Running Simulations:
+----------------------------------
+After entering processes, you will:
+   1. Choose which scheduling algorithm to run:
+      [1] First-Come, First-Served (FCFS)
+      [2] Shortest Job First (SJF)
+      [3] Priority Scheduling
+      [4] Round Robin
+
+   2. View simulation results:
+      - Average Waiting Time
+      - Average Turnaround Time
+      - Number of Context Switches
+      - Gantt Chart (text-based)
+
+   3. Optionally run another algorithm on the same input.
+
+----------------------------------
+ Tips:
+----------------------------------
+- Keep your input file clean: no extra blank lines.
+- Process IDs must be unique.
+- Arrival times must be >= 0.
+- Burst times must be > 0.
+
+----------------------------------
+ Exit:
+----------------------------------
+To end the program, choose not to run another algorithm when prompted.
+
+Thank you for using the Process Scheduling Algorithm Simulator!

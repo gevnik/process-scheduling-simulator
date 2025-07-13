@@ -1,0 +1,27 @@
+
+===============================
+Algorithm: First-Come, First-Served (FCFS)
+Average Waiting Time: 1.00
+Average Turnaround Time: 4.00
+Context Switches: 1
+Gantt Chart:
+| P1 | P2 |
+2    5    8
+
+Processes:
+ID=1 Arrival=2 Burst=3 Priority=None Waiting=0 Turnaround=3
+ID=2 Arrival=3 Burst=3 Priority=None Waiting=2 Turnaround=5
+
+===============================
+Algorithm: Shortest Job First (SJF)
+Average Waiting Time: 0.00
+Average Turnaround Time: 3.33
+Context Switches: 2
+Gantt Chart:
+| P1 | P2 | P3 |
+0    3    8    11
+
+Processes:
+ID=1 Arrival=0 Burst=2 Priority=None Waiting=0 Turnaround=2
+ID=2 Arrival=3 Burst=5 Priority=None Waiting=0 Turnaround=5
+ID=3 Arrival=8 Burst=3 Priority=None Waiting=0 Turnaround=3
