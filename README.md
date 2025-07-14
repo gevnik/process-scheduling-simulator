@@ -178,7 +178,7 @@ Run the simulator in file input mode, then enter the path, e.g.: sample_processe
 
 Mikhail Nozhkin\
 Sudhan Shrestha\
-Abhishek Mishra\
+Abhishek Mishra
 
 Fairleigh Dickinson University, Vancouver, Canada
 
